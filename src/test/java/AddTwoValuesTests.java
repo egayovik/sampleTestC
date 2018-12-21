@@ -43,8 +43,12 @@ public class AddTwoValuesTests {
     }
 
     @Test
-    public void testSquareRootPositiveValues() {
+    public void testSquareRootPossitiveValue() {
         assertEquals("16  must  be 4", 4.0, calc.squareRoot(16));
+    }
+    @Test
+    public void testXpov2PossiriveVelue() {
+        assertEquals("4  must  be 16", 16.0, calc.xPov2(4));
     }
 
     //TODO
