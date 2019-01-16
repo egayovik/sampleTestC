@@ -33,7 +33,7 @@ public class AddTwoValuesTests {
 
     @Test
     public void testDivisionTwoPositiveValues() {
-        assertEquals( "20 / 2  must  be 10", 10.0, calc.division( 20, 2));
+        assertEquals( "20 / 1  must  be 20", 20.0, calc.division( 20, 1));
 
     }
     @Test
