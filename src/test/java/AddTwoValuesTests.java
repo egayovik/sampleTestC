@@ -38,7 +38,7 @@ public class AddTwoValuesTests {
     }
     @Test
     public void testSubtractionTwoPositiveValues() {
-        assertEquals("20 - 2  must  be 18", 18, calc.subtraction(20, 2));
+        assertEquals("20 - 1  must  be 19", 19, calc.subtraction(20, 1));
 
     }
 
